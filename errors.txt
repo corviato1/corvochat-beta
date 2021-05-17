@@ -1,0 +1,258 @@
+npm install of master file:
+
+
+npm ERR! code 1
+npm ERR! git dep preparation failed
+npm ERR! command C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js install --only=dev --prod --ignore-prepublish --no-progress --no-save --cache=C:\Users\pikachu\AppData\Local\npm-cache\_cacache --prefer-offline=false --prefer-online=false --offline=false --before=
+npm ERR! npm WARN invalid config before="" set in command line options
+npm ERR! npm WARN invalid config Must be one of: null, valid Date string
+npm ERR! npm ERR! code 1
+npm ERR! npm ERR! git dep preparation failed
+npm ERR! npm ERR! command C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js install --only=dev --prod --ignore-prepublish --no-progress --no-save --cache=C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache --prefer-offline=false --prefer-online=false --offline=false --before=
+npm ERR! npm ERR! npm WARN invalid config before="" set in command line options
+npm ERR! npm ERR! npm WARN invalid config Must be one of: null, valid Date string
+npm ERR! npm ERR! npm ERR! code 1
+npm ERR! npm ERR! npm ERR! path C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown
+npm ERR! npm ERR! npm ERR! command failed
+npm ERR! npm ERR! npm ERR! command C:\Windows\system32\cmd.exe /d /s /c "prebuild-install || node-gyp rebuild"
+npm ERR! npm ERR! npm ERR! Building the projects in this solution one at a time. To enable parallel build, please add the "-m" switch.
+npm ERR! npm ERR! npm ERR!   builder.cc
+npm ERR! npm ERR! npm ERR!   db_impl.cc
+npm ERR! npm ERR! npm ERR!   db_iter.cc
+npm ERR! npm ERR! npm ERR!   filename.cc
+npm ERR! npm ERR! npm ERR!   dbformat.cc
+npm ERR! npm ERR! npm ERR!   log_reader.cc
+npm ERR! npm ERR! npm ERR!   log_writer.cc
+npm ERR! npm ERR! npm ERR!   memtable.cc
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\deps\leveldb\leveldb-1.20\db\skiplist.h(360,1): warning C4312: 'reinterpret_cast': conversion from 'int' to 'void *' of greater size [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\deps\leveldb\leveldb.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\deps\leveldb\leveldb-1.20\db\skiplist.h(337): message : while compiling class template member function 'void leveldb::SkipList<const char *,leveldb::MemTable::KeyComparator>::Insert(const Key &)' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\deps\leveldb\leveldb.vcxproj]
+npm ERR! npm ERR! npm ERR!           with
+npm ERR! npm ERR! npm ERR!           [
+npm ERR! npm ERR! npm ERR!               Key=const char *
+npm ERR! npm ERR! npm ERR!           ]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\deps\leveldb\leveldb-1.20\db\memtable.cc(105): message : see reference to function template instantiation 'void leveldb::SkipList<const char *,leveldb::MemTable::KeyComparator>::Insert(const Key &)' being compiled [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\deps\leveldb\leveldb.vcxproj]
+npm ERR! npm ERR! npm ERR!           with
+npm ERR! npm ERR! npm ERR!           [
+npm ERR! npm ERR! npm ERR!               Key=const char *
+npm ERR! npm ERR! npm ERR!           ]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\deps\leveldb\leveldb-1.20\db\memtable.h(79): message : see reference to class template instantiation 'leveldb::SkipList<const char *,leveldb::MemTable::KeyComparator>' being compiled [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\deps\leveldb\leveldb.vcxproj]
+npm ERR! npm ERR! npm ERR!   repair.cc
+npm ERR! npm ERR! npm ERR!   table_cache.cc
+npm ERR! npm ERR! npm ERR!   version_edit.cc
+npm ERR! npm ERR! npm ERR!   version_set.cc
+npm ERR! npm ERR! npm ERR!   write_batch.cc
+npm ERR! npm ERR! npm ERR!   memenv.cc
+npm ERR! npm ERR! npm ERR!   port_posix_sse.cc
+npm ERR! npm ERR! npm ERR!   block.cc
+npm ERR! npm ERR! npm ERR!   block_builder.cc
+npm ERR! npm ERR! npm ERR!   filter_block.cc
+npm ERR! npm ERR! npm ERR!   format.cc
+npm ERR! npm ERR! npm ERR!   iterator.cc
+npm ERR! npm ERR! npm ERR!   merger.cc
+npm ERR! npm ERR! npm ERR!   table.cc
+npm ERR! npm ERR! npm ERR!   table_builder.cc
+npm ERR! npm ERR! npm ERR!   two_level_iterator.cc
+npm ERR! npm ERR! npm ERR!   arena.cc
+npm ERR! npm ERR! npm ERR!   bloom.cc
+npm ERR! npm ERR! npm ERR!   cache.cc
+npm ERR! npm ERR! npm ERR!   coding.cc
+npm ERR! npm ERR! npm ERR!   comparator.cc
+npm ERR! npm ERR! npm ERR!   crc32c.cc
+npm ERR! npm ERR! npm ERR!   env.cc
+npm ERR! npm ERR! npm ERR!   filter_policy.cc
+npm ERR! npm ERR! npm ERR!   hash.cc
+npm ERR! npm ERR! npm ERR!   logging.cc
+npm ERR! npm ERR! npm ERR!   options.cc
+npm ERR! npm ERR! npm ERR!   status.cc
+npm ERR! npm ERR! npm ERR!   port_uv.cc
+npm ERR! npm ERR! npm ERR!   env_win.cc
+npm ERR! npm ERR! npm ERR!   win_logger.cc
+npm ERR! npm ERR! npm ERR!   win_delay_load_hook.cc
+npm ERR! npm ERR! npm ERR!   leveldb.vcxproj -> C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\Release\\leveldb.lib
+npm ERR! npm ERR! npm ERR!   snappy-sinksource.cc
+npm ERR! npm ERR! npm ERR!   snappy-stubs-internal.cc
+npm ERR! npm ERR! npm ERR!   snappy.cc
+npm ERR! npm ERR! npm ERR!   win_delay_load_hook.cc
+npm ERR! npm ERR! npm ERR!   snappy.vcxproj -> C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\Release\\snappy.lib
+npm ERR! npm ERR! npm ERR!   batch.cc
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan_converters_43_inl.h(22,1): error C2664: 'v8::Local<v8::Boolean> v8::Value::ToBoolean(v8::Isolate *) const': cannot convert argument 1 from 'v8::Local<v8::Context>' to 'v8::Isolate *' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan_converters_43_inl.h(22,1): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(2894,18): message : see declaration of 'v8::Value::ToBoolean' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan_converters_43_inl.h(40,1): error C2664: 'bool v8::Value::BooleanValue(v8::Isolate *) const': cannot convert argument 1 from 'v8::Local<v8::Context>' to 'v8::Isolate *' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan_converters_43_inl.h(40,1): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(2904,8): message : see declaration of 'v8::Value::BooleanValue' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan_implementation_12_inl.h(103,37): error C2664: 'v8::MaybeLocal<v8::Function> v8::Function::New(v8::Local<v8::Context>,v8::FunctionCallback,v8::Local<v8::Value>,int,v8::ConstructorBehavior,v8::SideEffectType)': cannot convert argument 1 from 'v8::Isolate *' to 'v8::Local<v8::Context>' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan_implementation_12_inl.h(105,32): message : No constructor could take the source type, or constructor overload resolution was ambiguous [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(4491,31): message : see declaration of 'v8::Function::New' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan_implementation_12_inl.h(337,37): error C2660: 'v8::StringObject::New': function does not take 1 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(5893,23): message : see declaration of 'v8::StringObject::New' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan_implementation_12_inl.h(337,60): error C2059: syntax error: ')' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan.h(1034,1): error C2660: 'v8::Value::ToString': function does not take 0 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(2856,44): message : see declaration of 'v8::Value::ToString' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan.h(1044,1): error C2664: 'int v8::String::WriteUtf8(v8::Isolate *,char *,int,int *,int) const': cannot convert argument 1 from 'char *' to 'v8::Isolate *' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan.h(1044,37): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(3083,7): message : see declaration of 'v8::String::WriteUtf8' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan.h(1818,1): error C2661: 'v8::Object::Set': no overloaded function takes 2 arguments 
+[C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan.h(1824,1): error C2661: 'v8::Object::Set': no overloaded function takes 2 arguments 
+[C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan.h(1830,1): error C2661: 'v8::Object::Set': no overloaded function takes 2 arguments 
+[C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan.h(1836,1): error C2661: 'v8::Object::Get': no overloaded function takes 1 arguments 
+[C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan.h(1835,17): error C2672: 'Nan::EscapableHandleScope::Escape': no matching overloaded function found [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan.h(1842,1): error C2661: 'v8::Object::Get': no overloaded function takes 1 arguments 
+[C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan.h(1842,17): error C2672: 'Nan::EscapableHandleScope::Escape': no matching overloaded function found [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan.h(1847,1): error C2661: 'v8::Object::Get': no overloaded function takes 1 arguments 
+[C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan.h(1847,17): error C2672: 'Nan::EscapableHandleScope::Escape': no matching overloaded function found [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan_object_wrap.h(24,5): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR!           with
+npm ERR! npm ERR! npm ERR!           [
+npm ERR! npm ERR! npm ERR!               T=v8::Object
+npm ERR! npm ERR! npm ERR!           ]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan.h(1859): message : see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR!           with
+npm ERR! npm ERR! npm ERR!           [
+npm ERR! npm ERR! npm ERR!               T=v8::Object
+npm ERR! npm ERR! npm ERR!           ]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan_object_wrap.h(67,18): error C2039: 'MarkIndependent': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR!           with
+npm ERR! npm ERR! npm ERR!           [
+npm ERR! npm ERR! npm ERR!               T=v8::Object
+npm ERR! npm ERR! npm ERR!           ]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan.h(1859): message : see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR!           with
+npm ERR! npm ERR! npm ERR!           [
+npm ERR! npm ERR! npm ERR!               T=v8::Object
+npm ERR! npm ERR! npm ERR!           ]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan_object_wrap.h(124,5): error C2039: 'IsNearDeath': is not a member of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR!           with
+npm ERR! npm ERR! npm ERR!           [
+npm ERR! npm ERR! npm ERR!               T=v8::Object
+npm ERR! npm ERR! npm ERR!           ]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\nan\nan.h(1859): message : see declaration of 'Nan::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR!           with
+npm ERR! npm ERR! npm ERR!           [
+npm ERR! npm ERR! npm ERR!               T=v8::Object
+npm ERR! npm ERR! npm ERR!           ]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\leveldown.h(16,26): error C2660: 'v8::Value::ToObject': function does not take 0 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(2868,44): message : see declaration of 'v8::Value::ToObject' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\leveldown.h(17,48): error C2660: 'v8::Value::ToObject': function does not take 0 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(2868,44): message : see declaration of 'v8::Value::ToObject' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\leveldown.h(18,42): error C2660: 'v8::Value::ToObject': function does not take 0 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(2868,44): message : see declaration of 'v8::Value::ToObject' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\leveldown.h(19,21): error C2660: 'v8::Value::ToString': function does not take 0 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(2856,44): message : see declaration of 'v8::Value::ToString' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\leveldown.h(30,110): error C2661: 'v8::Object::Get': no overloaded function takes 1 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\database.h(31,1): error C2661: 'v8::Object::Set': no overloaded function takes 2 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\common.h(19,24): error C2661: 'v8::Object::Has': no overloaded function takes 
+1 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\common.h(20,23): error C2661: 'v8::Object::Get': no overloaded function takes 
+1 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\common.h(30,24): error C2661: 'v8::Object::Has': no overloaded function takes 
+1 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\common.h(31,24): error C2661: 'v8::Object::Get': no overloaded function takes 
+1 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\common.h(32,23): error C2661: 'v8::Object::Get': no overloaded function takes 
+1 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\batch.cc(42,76): error C2660: 'v8::Value::ToObject': function does not take 0 
+arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(2868,44): message : see declaration of 'v8::Value::ToObject' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\batch.cc(72,69): error C2660: 'v8::FunctionTemplate::GetFunction': function does not take 0 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(6490,46): message : see declaration of 'v8::FunctionTemplate::GetFunction' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\batch.cc(75,69): error C2660: 'v8::FunctionTemplate::GetFunction': function does not take 0 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(6490,46): message : see declaration of 'v8::FunctionTemplate::GetFunction' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\batch.cc(91,3): error C2660: 'v8::Value::ToObject': function does not take 0 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(2868,44): message : see declaration of 'v8::Value::ToObject' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\batch.cc(91,3): error C2660: 'v8::Value::ToString': function does not take 0 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(2856,44): message : see declaration of 'v8::Value::ToString' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\batch.cc(91,3): error C2660: 'v8::String::Utf8Length': function does not take 
+0 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(3023,7): message : see declaration of 'v8::String::Utf8Length' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\batch.cc(91,3): error C2664: 'int v8::String::WriteUtf8(v8::Isolate *,char *,int,int *,int) const': cannot convert argument 1 from 'char *' to 'v8::Isolate *' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]   
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\batch.cc(91,3): message : Types pointed to are unrelated; conversion requires 
+reinterpret_cast, C-style cast or function-style cast [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(3083,7): message : see declaration of 'v8::String::WriteUtf8' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\batch.cc(92,3): error C2660: 'v8::Value::ToObject': function does not take 0 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(2868,44): message : see declaration of 'v8::Value::ToObject' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\batch.cc(92,3): error C2660: 'v8::Value::ToString': function does not take 0 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(2856,44): message : see declaration of 'v8::Value::ToString' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\batch.cc(92,3): error C2660: 'v8::String::Utf8Length': function does not take 
+0 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(3023,7): message : see declaration of 'v8::String::Utf8Length' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\batch.cc(92,3): error C2664: 'int v8::String::WriteUtf8(v8::Isolate *,char *,int,int *,int) const': cannot convert argument 1 from 'char *' to 'v8::Isolate *' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]   
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\batch.cc(92,3): message : Types pointed to are unrelated; conversion requires 
+reinterpret_cast, C-style cast or function-style cast [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(3083,7): message : see declaration of 'v8::String::WriteUtf8' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\batch.cc(110,3): error C2660: 'v8::Value::ToObject': function does not take 0 
+arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(2868,44): message : see declaration of 'v8::Value::ToObject' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\batch.cc(110,3): error C2660: 'v8::Value::ToString': function does not take 0 
+arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(2856,44): message : see declaration of 'v8::Value::ToString' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\batch.cc(110,3): error C2660: 'v8::String::Utf8Length': function does not take 0 arguments [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(3023,7): message : see declaration of 'v8::String::Utf8Length' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\batch.cc(110,3): error C2664: 'int v8::String::WriteUtf8(v8::Isolate *,char *,int,int *,int) const': cannot convert argument 1 from 'char *' to 'v8::Isolate *' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]  
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\src\batch.cc(110,3): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! C:\Users\pikachu\AppData\Local\node-gyp\Cache\15.0.1\include\node\v8.h(3083,7): message : see declaration of 'v8::String::WriteUtf8' [C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown\build\leveldown.vcxproj]
+npm ERR! npm ERR! npm ERR! gyp info it worked if it ends with ok
+npm ERR! npm ERR! npm ERR! gyp info using node-gyp@7.1.2
+npm ERR! npm ERR! npm ERR! gyp info using node@15.0.1 | win32 | x64
+npm ERR! npm ERR! npm ERR! gyp info find Python using Python version 3.9.0 found at "C:\Python39\python.exe"
+npm ERR! npm ERR! npm ERR! gyp info find VS using VS2019 (16.7.30611.23) found at:
+npm ERR! npm ERR! npm ERR! gyp info find VS "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools"
+npm ERR! npm ERR! npm ERR! gyp info find VS run with --verbose for detailed information
+npm ERR! npm ERR! npm ERR! gyp info spawn C:\Python39\python.exe
+npm ERR! npm ERR! npm ERR! gyp info spawn args [
+npm ERR! npm ERR! npm ERR! gyp info spawn args   'C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\gyp\\gyp_main.py',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   'binding.gyp',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   '-f',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   'msvs',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   '-I',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   'C:\\Users\\pikachu\\AppData\\Local\\npm-cache\\_cacache\\_cacache\\tmp\\git-clone-8179a60c\\node_modules\\leveldown\\build\\config.gypi',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   '-I',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   'C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\addon.gypi',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   '-I',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   'C:\\Users\\pikachu\\AppData\\Local\\node-gyp\\Cache\\15.0.1\\include\\node\\common.gypi',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   '-Dlibrary=shared_library',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   '-Dvisibility=default',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   '-Dnode_root_dir=C:\\Users\\pikachu\\AppData\\Local\\node-gyp\\Cache\\15.0.1',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   '-Dnode_gyp_dir=C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   '-Dnode_lib_file=C:\\\\Users\\\\pikachu\\\\AppData\\\\Local\\\\node-gyp\\\\Cache\\\\15.0.1\\\\<(target_arch)\\\\node.lib',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   '-Dmodule_root_dir=C:\\Users\\pikachu\\AppData\\Local\\npm-cache\\_cacache\\_cacache\\tmp\\git-clone-8179a60c\\node_modules\\leveldown',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   '-Dnode_engine=v8',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   '--depth=.',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   '--no-parallel',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   '--generator-output',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   'C:\\Users\\pikachu\\AppData\\Local\\npm-cache\\_cacache\\_cacache\\tmp\\git-clone-8179a60c\\node_modules\\leveldown\\build',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   '-Goutput_dir=.'
+npm ERR! npm ERR! npm ERR! gyp info spawn args ]
+npm ERR! npm ERR! npm ERR! gyp info spawn C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin\MSBuild.exe
+npm ERR! npm ERR! npm ERR! gyp info spawn args [
+npm ERR! npm ERR! npm ERR! gyp info spawn args   'build/binding.sln',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   '/clp:Verbosity=minimal',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   '/nologo',
+npm ERR! npm ERR! npm ERR! gyp info spawn args   '/p:Configuration=Release;Platform=x64'
+npm ERR! npm ERR! npm ERR! gyp info spawn args ]
+npm ERR! npm ERR! npm ERR! gyp ERR! build error
+npm ERR! npm ERR! npm ERR! gyp ERR! stack Error: `C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin\MSBuild.exe` failed with exit code: 1
+npm ERR! npm ERR! npm ERR! gyp ERR! stack     at ChildProcess.onExit (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\build.js:194:23)
+npm ERR! npm ERR! npm ERR! gyp ERR! stack     at ChildProcess.emit (node:events:327:20)
+npm ERR! npm ERR! npm ERR! gyp ERR! stack     at Process.ChildProcess._handle.onexit (node:internal/child_process:277:12)
+npm ERR! npm ERR! npm ERR! gyp ERR! System Windows_NT 10.0.19041
+npm ERR! npm ERR! npm ERR! gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild"
+npm ERR! npm ERR! npm ERR! gyp ERR! cwd C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\tmp\git-clone-8179a60c\node_modules\leveldown
+npm ERR! npm ERR! npm ERR! gyp ERR! node -v v15.0.1
+npm ERR! npm ERR! npm ERR! gyp ERR! node-gyp -v v7.1.2
+npm ERR! npm ERR! npm ERR! gyp ERR! not ok
+npm ERR! npm ERR!
+npm ERR! npm ERR! npm ERR! A complete log of this run can be found in:
+npm ERR! npm ERR! npm ERR!     C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_cacache\_logs\2021-05-16T21_42_17_834Z-debug.log
+npm ERR!
+npm ERR! npm ERR! A complete log of this run can be found in:
+npm ERR! npm ERR!     C:\Users\pikachu\AppData\Local\npm-cache\_cacache\_logs\2021-05-16T21_42_19_015Z-debug.log
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\pikachu\AppData\Local\npm-cache\_logs\2021-05-16T21_42_20_275Z-debug.log
+PS C:\Users\pikachu\Desktop\corvochat\chat\master\orbit-chat-master> 

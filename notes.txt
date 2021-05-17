@@ -1,0 +1,44 @@
+IPFS Refresh Class: https://proto.school/
+
+==TO DO LIST==
+
+1. Get npm install to work
+2. Mint unique asset of current ipfs data named CORVOCHAT/BETA#1.0.1
+3. Vid walkthrough of DApp functionality
+4. Record and publish Day 1: revamp vid
+5. Record and publish Day 2: exploring the DApp with the Corviato team
+6. Record Update: xxx
+7. Make host
+8. Make how to vid of setting up a host
+9. UX overhaul
+10. Define and sort all DApp functions
+
+==============
+
+Domain links for tools:
+
+https://github.com/orbitdb/orbit-textui
+https://github.com/orbitdb/orbit-web
+https://github.com/orbitdb/orbit-core
+https://github.com/libp2p/js-libp2p-webrtc-star
+
+https://wrtc-star1.par.dwebops.pub/
+https://wrtc-star2.sjc.dwebops.pub/
+
+==============
+
+Workflow order
+
+0. Nodejs-ipfs
+-- Docs: https://github.com/ipfs/js-ipfs/tree/master/docs
+-- Examples: https://github.com/ipfs/js-ipfs/tree/master/examples
+1. Rip through https://github.com/orbitdb/orbit-db
+-- Review FAQ: https://github.com/orbitdb/orbit-db/blob/main/FAQ.md
+-- understand architecture: https://github.com/haadcode/proto2
+-- Typescript typings are available here: https://github.com/orbitdb/orbit-db-types
+
+
+#
+v1.0.1 QmYwSLQ1jreihstJ322A4ysBaRq1JqutwDwV1mkYePhPxe
+Day-1-vid QmWEbYUWzNSPWGm2wXABndofKu2wSKd4jMQRQxdPoUBAM6
+Day-1-notes QmYcTXRpxhofaBTNThEeQed1dpAzJLLuasnhN4WoADVELT
